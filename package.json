@@ -1,0 +1,27 @@
+{
+  "name": "latin-wordle",
+  "version": "1.0.0",
+  "description": "A Wordle game using Latin words.",
+  "main": "src/game.ts",
+  "scripts": {
+    "start": "ts-node src/game.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "ts-node": "^10.0.0",
+    "typescript": "^4.0.0",
+    "jest": "^27.0.0",
+    "@types/jest": "^27.0.0"
+  },
+  "devDependencies": {
+    "ts-jest": "^27.0.0"
+  },
+  "keywords": [
+    "wordle",
+    "latin",
+    "game"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

@@ -4,7 +4,7 @@
   "description": "A Wordle game using Latin words.",
   "main": "src/game.ts",
   "scripts": {
-    "start": "ts-node src/game.ts",
+    "start": "ts-node src/index.ts",
     "build": "tsc",
     "test": "jest"
   },
